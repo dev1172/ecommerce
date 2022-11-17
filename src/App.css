@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ 
+.MAP{
+  margin: 20px;
+
+}
+.d-flex{
+  display: flex;
+  gap: 40px;
+  
+}
+.N{
+  background-color: rgb(215, 197, 197);
+}
+.contaimn{
+  font-size: 2px;
+  border: solid 10px green;
+ 
+  float: left;
+  background-color: #61dafb;
+}
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:250px;
+  width:700px;
+   
+  transform: translateY(-50px);
+  
+  transition: 1s;
+  border:solid rgb(121, 119, 119) 2px;
+  margin: 50px;
+  
+
+  
+  
+}
+.gmap_canvas {overflow:hidden;
+  background:none!important;
+  height:245px;
+  width:xp;
+  margin:px;
+ 
+
+  
+  
+}
+.contain{
+  display: flex;
+   
+}
+.cards{
+  margin-left: 10px;
+  transition: 0.3s;
+  
+ margin: 30px;
+}
+.cards:hover{
+
+  transform: translateY(-10px);
+  box-shadow: #282c34 2px 2px 2px 2px;
+  border-radius: 20px;
+}
+.imgs {
+  height: 170px;
+  width: 210px;
+  display: flex;
+  padding: 10px;
+
+}
+.g{
+  height: 20px;
+  width: 20px;
+  display: flex;
+  font-size:small ;
+}
+p{
+  font-size: large;
+}
+ 
+.B{
+  
+  box-shadow: #282c34 4px 4px 4px;
+
+
+}
+ 
